@@ -1,0 +1,194 @@
+{
+  "supermarkets" : {
+      "thfthf67657df" : {
+        "name" : "Mercandelle",
+        "sku" : "mercandelle-bv",
+        "address" : {
+          "street" : "Rua Júlio Ferreira de Melo",
+          "number" : "768",
+          "neighborhood" : "Boa Viagem",
+          "cep" : "51020-231",
+          "state" : "Pernambuco"
+        },
+        "contact" : {
+          "email" : "mercandele@gmail.com",
+          "phone" : "998653854"
+        },
+        "operatingHours" : {
+          "workdays" : {
+            "open" : "hours",
+            "closed" : "hours"
+          },
+          "saturday" : {
+            "open" : "hours",
+            "closed" : "hours"
+          },
+          "sunday" : {
+            "open" : "hours",
+            "closed" : "hours"
+          },
+          "holidays" {
+            "open" : "hours",
+            "closed" : "hours"
+          }
+        }
+      }
+  },
+
+  "categories" : {
+    "rttuyuiy56tyg" : {
+      "father": null,
+      "name": "Bebidas",
+      "photo": null,
+      "sku": "mercandelle-bv-bebidas"
+    },
+    "wertyiyutrtyruui" : {
+      "father": "rttuyuiy56tyg",
+      "name": "Água Mineral",
+      "photo": "",
+      "sku": "mercandelle-bv-bebidas-am"
+    },
+    "asdfsadfasdfas" : {
+      "father": "wertyiyutrtyruui",
+      "name": "Água Mineral Com Gás",
+      "photo": "",
+      "sku": "mercandelle-bv-bebidas-amg"
+    },
+    "jiojdfasiodfji" : {
+      "father": "wertyiyutrtyruui",
+      "name": "Água Mineral Sem Gás",
+      "photo": "",
+      "sku": "mercandelle-bv-bebidas-amsg"
+    },
+    "huashuahsuahsd" : {
+      "father": "rttuyuiy56tyg",
+      "name": "Cerveja",
+      "photo": "",
+      "sku": "mercandelle-bv-bebidas-cerv"
+    },
+    "poakspoakspoak" : {
+      "father": "huashuahsuahsd",
+      "name": "Cerveja Lata",
+      "photo": "",
+      "sku": "mercandelle-bv-bebidas-cerv-lata"
+    }
+  },
+
+  "products" : {
+    "uibisudbaiusdf" : {
+      "name" : "Água Mineral Com Gás Schin",
+      "price" : "2,50",
+      "father" : "asdfsadfasdfas",
+      "brand" : "mzxcioxzcxc",
+      "amount" : "10",
+      "maturity" : null,
+      "weight" : "500g",
+      "available" : true,
+      "sku" : "mercandelle-bv-bebidas-amg-schin"
+    },
+    "bcuascbuasybcusb" : {
+      "name" : "Água Mineral Sem Gás Minalba",
+      "price" : "5,50",
+      "father" : "jiojdfasiodfji",
+      "brand" : "zuxichizuxh",
+      "amount" : "3",
+      "maturity" : null,
+      "weight" : "500g",
+      "available" : true,
+      "sku" : "mercandelle-bv-bebidas-amsg-mba"
+    },
+    "abababababdfdsfsdf" : {
+      "name" : "Cerveja Lata Skoll",
+      "price" : "4,50",
+      "father" : "poakspoakspoak",
+      "brand" : "ububdsoifdu",
+      "amount" : "7",
+      "maturity" : null,
+      "weight" : "500g",
+      "available" : true,
+      "sku" : "mercandelle-bv-bebidas-cerv-skl"
+    }
+  },
+
+  "brands" : {
+    "mzxcioxzcxc" : {
+      "name" : "Schin"
+    },
+    "zuxichizuxh" : {
+      "name" : "Minalba"
+    },
+    "ububdsoifdu" : {
+      "name" : "Skoll"
+    }
+  },
+
+  "maturity" : {
+    "tfstysdfgdf" : {
+      "name" : "Verde"
+    },
+    "abdyhreufdf" : {
+      "name" : "Médio"
+    },
+    "iocjvuofhdi" : {
+      "name" : "Maduro"
+    }
+  },
+
+  "purchases" : {
+    "qtqtqtqtqrtfgc" : {
+      "products" : ["uibisudbaiusdf", "bcuascbuasybcusb"],
+      "price" : "8,00",
+      "delivery" : {
+        "date" : "Thursday",
+        "hour" : "13:00"
+      },
+      "status" : {"iuchiuewhciuhc"}
+    }, 
+    "gisudhfiausdfh" : {
+      "products" : ["abababababdfdsfsdf"],
+      "price" : "4,50",
+      "delivery" : {
+        "date" : "Monday",
+        "hour" : "08:00"
+      },
+      "status" : {"cvcxvzfsfsgvcx"}
+    }
+  },
+
+  "status" : {
+    "byasbdufybasdf" : {
+      "name" : "Pendente"
+    },
+    "iuchiuewhciuhc" : {
+      "name" : "Recebido"
+    },
+    "dsadsfergdfasd" : {
+      "name" : "Em andamento"
+    },
+    "cvcxvzfsfsgvcx" : {
+      "name" : "Entregue"
+    },
+    "bufahfdihdafb" : {
+      "name" : "Finalizado"
+    }
+  },
+
+  "clients" : {
+    "vbcnxmvcbvxmc" : {
+      "name" : "Victor Sena",
+      "address" : {
+        "street" : "Rua Prof Anjos",
+        "number" : "312",
+        "neighborhood" : "Arruda",
+        "cep" : "512043-32",
+        "state" : "Pernambuco"
+        },
+        "contact" : {
+          "email" : "vattar@gmail.com",
+          "phone" : "923455783"
+        },
+        "purchase" : ["qtqtqtqtqrtfgc", "gisudhfiausdfh"]
+    }
+  }
+  
+}

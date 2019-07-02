@@ -1,0 +1,62 @@
+{
+  "user" : {
+    "id": 1,
+    
+    "email": cyc@cin.ufpe.br,
+  },
+  "order" : {
+    "id" : 1
+  },
+  "products" : {
+    "ID_0001" : {
+      "brand" : "https://firebasestorage.googleapis.com/v0/b/feiralizeapp-a4123.appspot.com/o/products%2Fstructure-data.png?alt=media&token=0996bc21-dc43-4cda-8f09-eb78ff87c833",
+      "size" : "test",
+      "status": "Disponível",
+      "quantity": 10,
+      "price"
+    },
+    "ID_0002" : {
+      "image" : "https://firebasestorage.googleapis.com/v0/b/feiralizeapp-a4123.appspot.com/o/products%2Fstructure-data.png?alt=media&token=0996bc21-dc43-4cda-8f09-eb78ff87c833",
+      "name" : "test3"
+    }
+  },
+  "supermarkets" : {
+    "ID_001" : {
+      "name" : "MERCANDELLI",
+      "products" : {
+        "EAN_0001" : {
+          "amount" : 1
+        },
+        "EAN_0002" : {
+          "amount" : 2
+        }
+      }
+    }
+  },
+  "teste" : {
+    "data" : {
+      "feirasProntas" : [ {
+        "key" : "a",
+        "status" : "PENDENTE"
+      }, {
+        "key" : "b",
+        "status" : "EM PREPARO"
+      }, {
+        "key" : "c",
+        "status" : "EM ENTREGA"
+      } ]
+    }
+  },
+  "users" : {
+    "VPyqMOkA54S6KmDns9IJQ2pVTiH3" : {
+      "cart" : {
+        "EAN_0001" : {
+          "amount" : 3
+        }
+      },
+      "name" : "adasdasd",
+      "test" : 1231,
+      "type" : 2
+    }
+  }
+}
